@@ -178,14 +178,14 @@ Matrix Cholesky(Matrix A)
 	return Chol;
 }
 
-Matrix UKF::state_function (Matrix x)	// override this function with inherited UKF class
-{
-	cout << "UKF: Please form your own state function!" << endl;
-	return x;
-}
-
-Matrix UKF::measurement_function (Matrix x)	// override this function with inherited UKF class
-{
-	cout << "UKF: Please form your own measurement function!" << endl;
-	return x;
-}
+//Matrix UKF::state_function (Matrix x)	// override this function with inherited UKF class
+//{
+//	cout << "UKF: Please form your own state function!" << endl;
+//	return x;
+//}
+//
+//Matrix UKF::measurement_function (Matrix x)	// override this function with inherited UKF class
+//{
+//	cout << "UKF: Please form your own measurement function!" << endl;
+//	return x;
+//}
